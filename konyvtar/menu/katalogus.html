@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvtár</title>
+    <style>
+header{
+    height: 100px;
+    background-image: url(fhatter.jpg);
+}
+.head{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#logo{
+    float: left;
+}
+body{
+    margin: 0px;
+}
+h1{
+    padding-left: 10px;
+}
+li{
+    list-style-type: none; 
+    padding-top: 25px;
+    padding-bottom: 27px;
+    border: 2px solid grey;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(226, 158, 133);
+    display: block;
+    width: 170px;
+}
+a{
+text-decoration: none;
+    color: black;
+    padding: 43px;
+}
+#menu{
+    background-color: rgb(177, 100, 29);
+    font-family: fantasy;
+    padding: 7px;
+}
+li:hover{
+    background-color: bisque;
+}
+main{
+    float: right;
+    width: 80%;
+    padding-left: 10px;
+}
+section{
+    float: left;
+    width: 200px;
+}
+td{
+    background-color: lightgray;
+}
+table, td, tr{
+    border: 1px solid white;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo.gif">
+        <h1 class="head">Mechwart Iskolai Könyvtár</h1>
+        <h2 class="head">alapítva: 1901-ben</h2>
+    </header>
+    <section>
+        <ul>
+        <li id="menu"><a href="#"><font size="5" color="yellow">Menü:</font></a></li>
+        <li><a href="kezdolap.html">Kezdőoldal</a></li>
+        <li><a href="vizszintesmenu.html" class="active">Olvasóterem</a></li>
+        <li><a href="katalogus.html">Katalógus</a></li>
+        <li><a href="hosszabitas.html">Hosszabbítás</a></li>
+        <li><a href="elojegyzes.html">Előjegyzés</a></li>
+    </ul>
+</section>
+<main>
+    <h1>Katalogus</h1>
+    <table>
+        <tr>
+            <td rowspan="17">természettudományok</td>
+            <td rowspan="5">matematika</td>
+            <td>számelmélet</td>
+        </tr>
+        <tr>
+            
+            <td>geometria</td>
+        </tr>
+        <tr>
+            
+            <td>logika</td>
+        </tr>
+        <tr>
+            
+            <td>algebra</td>
+        </tr>
+        <tr>
+           
+            <td>halmazelmélet</td>
+        </tr>
+        <tr>
+           
+            <td rowspan="6">fizika</td>
+            <td>mechanika</td>
+        </tr>
+        <tr>
+            
+            <td>termodinamika</td>
+        </tr>
+        <tr>
+           
+            <td>fénytan, optika</td>
+        </tr>
+        <tr>
+           
+            <td>elektromágnesességtan</td>
+        </tr>
+        <tr>
+           
+            <td>szilárdtestfizika</td>
+        </tr>
+        <tr>
+            
+            <td>kvantummechanika</td>
+        </tr>
+        <tr>
+            
+            <td>kémia</td>
+            <td>szerveskémia</td>
+        </tr>
+        <tr>
+            
+            <td>kémia</td>
+            <td></td>
+        </tr>
+        <tr>
+            
+            <td rowspan="4">biológia</td>
+            <td>etológia</td>
+        </tr>
+        <tr>
+            
+            <td>fiziológia</td>
+        </tr>
+        <tr>
+            <td>biokémia</td>
+        </tr>
+        <tr>
+            
+            <td>genetika</td>
+        </tr>
+    </table>
+</main>
+</body>
+</html>

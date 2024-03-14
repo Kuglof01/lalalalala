@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvtár</title>
+    <style>
+        header{
+    height: 100px;
+    background-image: url(fhatter.jpg);
+}
+.head{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#logo{
+    float: left;
+}
+body{
+    margin: 0px;
+}
+h1{
+    padding-left: 10px;
+}
+li{
+    list-style-type: none; 
+    padding-top: 25px;
+    padding-bottom: 27px;
+    border: 2px solid grey;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(226, 158, 133);
+    display: block;
+    width: 170px;
+}
+a{
+text-decoration: none;
+    color: black;
+    padding: 43px;
+}
+#menu{
+    background-color: rgb(177, 100, 29);
+    font-family: fantasy;
+    padding: 7px;
+}
+li:hover{
+    background-color: bisque;
+}
+main{
+    float: right;
+    width: 80%;
+    padding-left: 10px;
+}
+section{
+    float: left;
+    width: 200px;
+}
+fieldset{
+    background-color: rgb(245, 241, 204);
+    color: crimson;
+    width: 300px;
+}
+button{
+    background-color: crimson;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo.gif">
+        <h1 class="head">Mechwart Iskolai Könyvtár</h1>
+        <h2 class="head">alapítva: 1901-ben</h2>
+    </header>
+    <section>
+        <ul>
+        <li id="menu"><a href="#"><font size="5" color="yellow">Menü:</font></a></li>
+        <li><a href="kezdolap.html">Kezdőoldal</a></li>
+        <li><a href="vizszintesmenu.html" class="active">Olvasóterem</a></li>
+        <li><a href="katalogus.html">Katalógus</a></li>
+        <li><a href="hosszabitas.html">Hosszabbítás</a></li>
+        <li><a href="elojegyzes.html">Előjegyzés</a></li>
+    </ul>
+</section>
+    <main>
+        <h1>Hosszabbítás</h1>
+        <p>Lejáróban lévő kölcsönzött dokumentumok on-line hosszabbítására is lehetőséget biztosítunk.<p>
+            
+            <p>Kérjük, adja meg olvasójegyének azonosítószámát, valamint a dokumentum kódját.</p>
+        </p>
+        <fieldset>
+            Név:<br>
+            <input type="text"><br><br>
+            A dokumentum katalógusszáma:<br>
+            <input type="text"><br><br>
+            Hosszabítás kérés ideje:<br>
+            <select>
+                <option>1 nap</option>
+                <option>2 nap</option>
+                <option>3 nap</option>
+            </select><br><br>
+            Egyéb megjegyzés<br>
+            <textarea></textarea><br><br>
+            <button>küldés</button>
+        </fieldset>
+    </main>
+    
+</body>
+</html>
